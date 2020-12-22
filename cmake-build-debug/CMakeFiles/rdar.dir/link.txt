@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -static CMakeFiles/rdar.dir/src/main.cpp.o CMakeFiles/rdar.dir/src/reader.cpp.o CMakeFiles/rdar.dir/src/util.cpp.o CMakeFiles/rdar.dir/src/archive.cpp.o CMakeFiles/rdar.dir/src/file_sink.cpp.o  -o rdar  _deps/fmt-build/libfmtd.a src/libww/liblibww.a 

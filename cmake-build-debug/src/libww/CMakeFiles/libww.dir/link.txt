@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibww.a  CMakeFiles/libww.dir/codebook.cpp.o CMakeFiles/libww.dir/crc.c.o CMakeFiles/libww.dir/wwriff.cpp.o
+/usr/bin/ranlib liblibww.a

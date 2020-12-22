@@ -1,0 +1,8 @@
+/home/ego/jetbrains/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/ego/projects/rdar
+-- Version: 7.1.3
+-- Build type: Debug
+-- CXX_STANDARD: 17
+-- Required features: cxx_variadic_templates
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ego/projects/rdar/cmake-build-debug

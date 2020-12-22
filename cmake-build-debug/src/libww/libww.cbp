@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libww"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\fmt-src\;CMake Files\cmake-build-debug\_deps\fmt-src\support\;CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\;CMake Files\src\;CMake Files\src\libww\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ego/projects/rdar/cmake-build-debug/src/libww"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libww">
+				<Option output="/home/ego/projects/rdar/cmake-build-debug/src/libww/liblibww.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ego/projects/rdar/cmake-build-debug/src/libww"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 libww"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libww/fast">
+				<Option output="/home/ego/projects/rdar/cmake-build-debug/src/libww/liblibww.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ego/projects/rdar/cmake-build-debug/src/libww"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 libww/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/ego/projects/rdar/cmake-build-debug/src/libww/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ego/projects/rdar/src/libww/codebook.cpp">
+			<Option target="libww"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/src/libww/codebook.h">
+			<Option target="libww"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/src/libww/crc.c">
+			<Option target="libww"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/src/libww/crc.h">
+			<Option target="libww"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/src/libww/wwriff.cpp">
+			<Option target="libww"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/src/libww/wwriff.h">
+			<Option target="libww"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/cmake-build-debug/_deps/fmt-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/cmake-build-debug/_deps/fmt-src/support/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ego/projects/rdar/src/libww/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libww\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
